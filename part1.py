@@ -8,10 +8,11 @@ The program doesn't work quite right yet, though. Fix the program so that it run
 """
 
 number = int(input("What factorial are you looking for? "))
+product = 1
 
-product = 0
-
-for i in range(number):
-  product = product * i
+for i in range(number + 1):
+  if i > 0:
+    product = product * i
+    i = i - 1
 
 print(product)
