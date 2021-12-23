@@ -22,8 +22,8 @@ Enter the height: 3
 counter = 0
 base = int(input("Enter the base: "))
 height = int(input("Enter the height: "))
-
+  
 while counter != height:
-  for i in range(base + 1):
+  for i in range(base):
    print("*" * base)
   counter = counter + 1

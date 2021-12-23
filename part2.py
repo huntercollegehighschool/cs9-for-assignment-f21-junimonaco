@@ -9,12 +9,12 @@ For example, if the user types in 4, the program should print 100 (since 1^3 + 2
 
 #write your code here
 num = int(input("Enter a positive integer: "))
-product = 0
+sum = 0
 
 if num > 0:
-  for i in range(1, 1, num + 1):
-    product = (i ** 3) + product
-  print(product)
+  for i in range(num + 1):
+    sum = (i ** 3) + sum
+  print(sum)
 
 else:
   print("Please enter a positive integer.")
